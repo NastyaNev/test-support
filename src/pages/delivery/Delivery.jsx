@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 import "./Delivery.scss";
 
 function Delivery() {
   return (
-    <div>Delivery</div>
-  )
+    <main>
+      <div>Delivery</div>
+    </main>
+  );
 }
 
-export default Delivery
+export default Delivery;

@@ -1,0 +1,99 @@
+.top-block {
+    width: calc(100% / (1280 / 1200));
+    background-color: #93BBEA;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 40px 0 54px 0;
+    background-image: url(../../images/top-block/plains.svg), url(../../images/top-block/hand.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -6px 37px, right bottom;
+    background-size: 275px 195px, 278px 229px;
+
+    &__title {
+        margin: 0 0 4px 0;
+        font-family: 'MuseoSansCyrl900';
+        font-size: 60px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-size: 17px;
+        width: 538px;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    &__contact-menu {
+        display: flex;
+        gap: 8px;
+        margin: 40px 0 0 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+
+@media(max-width: 1279px) {
+    .top-block {
+        background-size: calc(100% / (1200 / 275)) calc(100% / (306 / 195)), calc(100% / (1200 / 278)) calc(100% / (306 / 229));
+        padding: calc(100vw / (1200 / 40)) 0 calc(100vw / (1200 / 54)) 0;
+
+        &__title {
+            font-size: calc(100vw / (1200 / 60));
+
+        }
+
+        &__subtitle {
+            font-size: calc(100vw / (1200 / 17));
+            width: calc(100vw / (1200 / 583));
+        }
+
+        &__contact-menu {
+            gap: 8px;
+            margin: calc(100vw / (1200 / 40)) 0 0 0;
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .top-block {
+
+        &__subtitle {
+            font-size: 13px;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .top-block {
+
+        &__subtitle {
+            width: calc(100vw / (1200 / 700));
+        }
+    }
+}
+
+@media(max-width: 579px) {
+    .top-block {
+        width: 100%;
+        border-radius: 0px;
+
+        &__subtitle {
+            display: none;
+        }
+
+        &__contact-menu {
+            gap: calc(100vw / (1280 / 8));
+        }
+    }
+}
+
+@media(max-width: 529px) {
+    .top-block {
+        background-image: none;
+    }
+}

@@ -4,6 +4,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import App from "./components/app/App";
 import { BrowserRouter } from "react-router-dom";
+import "./fonts/fonts.scss"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
