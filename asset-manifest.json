@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-support/static/css/main.f7f19f4f.css",
-    "main.js": "/test-support/static/js/main.62a6291d.js",
+    "main.css": "/test-support/static/css/main.cde5373a.css",
+    "main.js": "/test-support/static/js/main.d1f7490e.js",
     "static/js/787.2752eaa8.chunk.js": "/test-support/static/js/787.2752eaa8.chunk.js",
     "static/media/MuseoSansCyrl500.ttf": "/test-support/static/media/MuseoSansCyrl500.948ec7de201f332c4e86.ttf",
     "static/media/MuseoSansCyrl700.ttf": "/test-support/static/media/MuseoSansCyrl700.4407722f22c0457d4687.ttf",
@@ -16,12 +16,12 @@
     "index.html": "/test-support/index.html",
     "static/media/star.svg": "/test-support/static/media/star.99b36982993b97736832d8b6e7d423cc.svg",
     "static/media/email.svg": "/test-support/static/media/email.d1e14e2e67514b3ccc263b402fac2339.svg",
-    "main.f7f19f4f.css.map": "/test-support/static/css/main.f7f19f4f.css.map",
-    "main.62a6291d.js.map": "/test-support/static/js/main.62a6291d.js.map",
+    "main.cde5373a.css.map": "/test-support/static/css/main.cde5373a.css.map",
+    "main.d1f7490e.js.map": "/test-support/static/js/main.d1f7490e.js.map",
     "787.2752eaa8.chunk.js.map": "/test-support/static/js/787.2752eaa8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7f19f4f.css",
-    "static/js/main.62a6291d.js"
+    "static/css/main.cde5373a.css",
+    "static/js/main.d1f7490e.js"
   ]
 }
