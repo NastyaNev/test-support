@@ -1,22 +1,13 @@
 .social-media {
-    width: 160px;
-    min-width: 82px;
-    padding: 15px 0 15px 0;
-    background-color: #FFFFFF;
-    border-radius: 12px;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 13.33px;
+    background-color: #F9F9F9;
     display: flex;
-    gap: 8px;
-    justify-content: center;
     align-items: center;
-    text-decoration: none;
+    justify-content: center;
     transition: all 0.3s ease 0s;
-    position: relative;
-
-    &__text {
-        color: #1A1A1A;
-        font-size: 15px;
-        font-family: 'MuseoSansCyrl700';
-    }
 }
 
 .social-media:hover {
@@ -24,44 +15,32 @@
     transition: all 0.3s ease 0s;
 }
 
-// .social-media:after {
-//     content: "";
-//     background: #1abc9c;
-//     display: block;
-//     position: absolute;
-//     padding-top: 100%;
-//     padding-left: 150%;
-//     margin-left: -20px;
-//     margin-top: -120%;
-//     opacity: 0;
-//     transition: all 0.8s
-// }
-
-// .social-media:active:after {
-//     padding: 0;
-//     margin: 0;
-//     opacity: 1;
-//     transition: 0s
-// }
-
-@media (max-width: 1139px) {
+@media (max-width: 1079px) {
     .social-media {
-        width: calc(100vw / (1200 / 160));
-        padding: calc(100vw / (1200 / 15)) 0 calc(100vw / (1200 / 15)) 0;
+        padding: calc(100vw / (1280 / 10));
+        border-radius: calc(100vw / (1280 / 13.33));
+        width: calc(100vw / (1280 / 36));
+        height: calc(100vw / (1280 / 36));
 
-        &__text {
-            font-size: calc(100vw / (1200 / 15));
+
+        &__icon {
+            width: 2.8vw;
+            height: 2.8vw;
         }
     }
 }
 
 @media (max-width: 767px) {
     .social-media {
-        gap: calc(100vw / (1200 / 8));
-        border-radius: 40px;
+        padding: 5.3px;
+        border-radius: 7px;
+        width: 19px;
+        height: 19px;
 
-        &__text {
-            font-size: 8px;
+
+        &__icon {
+            width: 19px;
+            height: 19px;
         }
     }
 }

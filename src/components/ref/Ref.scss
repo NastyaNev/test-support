@@ -1,0 +1,19 @@
+.ref {
+    width: calc(100% / (1280 / 996 ));
+    padding-bottom: 80px;
+    margin-top: -7px;
+
+    &__title {
+        margin: 0 0 32px 0;
+        display: flex;
+        font-size: 40px;
+        font-family: "MuseoSansCyrl700";
+        justify-content: center;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}

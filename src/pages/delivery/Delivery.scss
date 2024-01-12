@@ -1,0 +1,55 @@
+.delivery-page {
+    margin: 22px 0 0 40px;
+
+    &__title-container {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+
+        &__title {
+            margin: 0;
+            font-size: 24px;
+            font-family: "MuseoSansCyrl900";
+        }
+
+        &__share {
+            cursor: pointer;
+        }
+    }
+
+    &__text {
+        max-width: 690px;
+        font-size: 15px;
+        margin: 0 0 39px 0;
+        line-height: 21px;
+    }
+
+    &__span {
+        font-size: 13px;
+        font-family: "MuseoSansCyrl700";
+    }
+
+    &__contacts {
+        margin: 16px 0 0 0;
+        display: flex;
+        gap: 8px;
+
+        &__button {
+            display: flex;
+            gap: 8px;
+            padding: 15px 57px;
+            background-color: #36BA5F;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-family: "MuseoSansCyrl700";
+            font-size: 15px;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        &__button-medias {
+            cursor: pointer;
+        }
+    }
+}

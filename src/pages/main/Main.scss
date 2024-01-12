@@ -3,6 +3,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    gap: 80px;
+}
+
+@media (max-width: 1079px) {
+    .main-page {
+        gap: calc(100vw / (1280 / 80));
+    }
 }
 
 @media (max-width: 579px) {

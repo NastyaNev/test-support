@@ -1,0 +1,38 @@
+.ref-item {
+    display: flex;
+    padding: 20px 24px;
+    justify-content: space-between;
+    box-shadow: 0 0 30px rgba(26, 26, 26, 5%);
+    border-radius: 16px;
+
+    &__desctiption {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        max-width: 443px;
+
+        &__title {
+            margin: 0;
+            font-size: 20px;
+            font-family: "MuseoSansCyrl700";
+            color: black;
+        }
+
+        &__text {
+            margin: 0;
+            font-size: 13px;
+            color: #949494;
+            text-decoration: none;
+            max-height: 36px;
+            overflow: hidden;
+            line-height: 17px;
+        }
+    }
+
+    &__button {
+        background-color: white;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+}
