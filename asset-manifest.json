@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-support/static/css/main.0a534ed0.css",
-    "main.js": "/test-support/static/js/main.00ed1f70.js",
+    "main.css": "/test-support/static/css/main.4107675a.css",
+    "main.js": "/test-support/static/js/main.b8a79219.js",
     "static/js/787.2752eaa8.chunk.js": "/test-support/static/js/787.2752eaa8.chunk.js",
     "static/media/MuseoSansCyrl500.ttf": "/test-support/static/media/MuseoSansCyrl500.948ec7de201f332c4e86.ttf",
     "static/media/MuseoSansCyrl700.ttf": "/test-support/static/media/MuseoSansCyrl700.4407722f22c0457d4687.ttf",
@@ -30,12 +30,12 @@
     "static/media/arrow-right.svg": "/test-support/static/media/arrow-right.5c240e7e3df8bf804bf9ad50b75928c2.svg",
     "static/media/facebook.svg": "/test-support/static/media/facebook.6e0a923ff620ca5a0f6fc5dfe5d49211.svg",
     "static/media/chat-white.svg": "/test-support/static/media/chat-white.498289188f07945365297af297768c8c.svg",
-    "main.0a534ed0.css.map": "/test-support/static/css/main.0a534ed0.css.map",
-    "main.00ed1f70.js.map": "/test-support/static/js/main.00ed1f70.js.map",
+    "main.4107675a.css.map": "/test-support/static/css/main.4107675a.css.map",
+    "main.b8a79219.js.map": "/test-support/static/js/main.b8a79219.js.map",
     "787.2752eaa8.chunk.js.map": "/test-support/static/js/787.2752eaa8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a534ed0.css",
-    "static/js/main.00ed1f70.js"
+    "static/css/main.4107675a.css",
+    "static/js/main.b8a79219.js"
   ]
 }
