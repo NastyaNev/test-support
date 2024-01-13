@@ -1,46 +1,28 @@
 .social-media {
-    width: 36px;
-    height: 36px;
-    padding: 10px;
-    border-radius: 13.33px;
-    background-color: #F9F9F9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease 0s;
+    &__button {
+        // transition: all 0.3s ease 0s;
+    }
 }
 
 .social-media:hover {
-    border-radius: 40px;
-    transition: all 0.3s ease 0s;
+    // border-radius: 40px;
+    // transition: all 0.3s ease 0s;
 }
 
 @media (max-width: 1079px) {
     .social-media {
-        padding: calc(100vw / (1280 / 10));
-        border-radius: calc(100vw / (1280 / 13.33));
-        width: calc(100vw / (1280 / 36));
-        height: calc(100vw / (1280 / 36));
-
-
-        &__icon {
-            width: 2.8vw;
-            height: 2.8vw;
+        &__button {
+            width: calc(100vw / (1280 / 56));
+            height: calc(100vw / (1280 / 56));
         }
     }
 }
 
 @media (max-width: 767px) {
     .social-media {
-        padding: 5.3px;
-        border-radius: 7px;
-        width: 19px;
-        height: 19px;
-
-
-        &__icon {
-            width: 19px;
-            height: 19px;
+        &__button {
+            width: 35px;
+            height: 35px;
         }
     }
 }

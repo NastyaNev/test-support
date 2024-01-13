@@ -13,7 +13,6 @@ function Main() {
         <Social />
         <Faq />
         <Ref />
-        <NavLink to="/delivery">delivery</NavLink>
     </main>
   );
 }

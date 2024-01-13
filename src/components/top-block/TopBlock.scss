@@ -89,6 +89,10 @@
         &__contact-menu {
             gap: calc(100vw / (1280 / 8));
         }
+
+        &__contact-menu {
+            gap: 4px;
+        }
     }
 }
 

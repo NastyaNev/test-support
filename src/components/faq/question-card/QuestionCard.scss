@@ -2,8 +2,8 @@
     color: #1A1A1A;
     text-decoration: none;
     padding: 16px;
-    width: calc(282px - 32px);
-    height: calc(160px - 32px);
+    max-width: 250px;
+    height: 128px;
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(26, 26, 26, 7%);
     display: flex;

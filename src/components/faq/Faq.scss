@@ -7,6 +7,7 @@
         font-size: 40px;
         font-family: "MuseoSansCyrl700";
         justify-content: center;
+        min-width: 230px;
     }
 
     &__carousel {
@@ -27,4 +28,20 @@
 
 .rec.rec-pagination {
     display: none;
+}
+
+@media (max-width: 1279px) {
+    .faq {
+        &__title {
+            font-size: calc(100vw / (1280 / 40));
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .faq {
+        &__title {
+            font-size: 24px;
+        }
+    }
 }
