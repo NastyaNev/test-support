@@ -22,24 +22,8 @@ function Faq() {
     updateWidth();
   }, [width]);
 
-  const handleItemsToShow = () => {
-    if (width >= 1279) {
-      return 4;
-    } else if (width >= 1079) {
-      return 3;
-    } else if (width >= 767) {
-      return 2;
-    } else {
-      return 1;
-    }
-  };
-
   const handleItemsToScroll =() => {
-    if (width >= 1279) {
-      return 4;
-    } else if (width >= 1079) {
-      return 3;
-    } else if (width >= 767) {
+    if (width >= 767) {
       return 2;
     } else {
       return 1;
@@ -70,7 +54,8 @@ function Faq() {
         </div>
         <Carousel
           ref={carousel}
-          itemsToShow={handleItemsToShow()}
+          pagination={false}
+          itemsToShow={(width / (1280 / 1220) / 305.072)}
           itemsToScroll={handleItemsToScroll()}
           renderArrow={({ type, onClick, isEdge }) => {
             return (

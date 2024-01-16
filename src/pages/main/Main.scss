@@ -4,6 +4,12 @@
     align-items: center;
     margin-top: 40px;
     gap: 80px;
+
+    &:nth-child(3) {
+    color: blue;
+        align-items: none;
+        
+    }
 }
 
 @media (max-width: 1079px) {

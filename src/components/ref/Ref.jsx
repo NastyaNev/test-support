@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Ref.scss";
 import {refMenu} from "../../utils/ref-menu-array";
 import RefItem from "./ref-item/RefItem";

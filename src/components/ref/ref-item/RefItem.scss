@@ -5,8 +5,9 @@
     box-shadow: 0 0 30px rgba(26, 26, 26, 5%);
     border-radius: 16px;
     gap: 10px;
+    cursor: pointer;
 
-    &__desctiption {
+    &__description {
         display: flex;
         flex-direction: column;
         gap: 4px;
@@ -28,20 +29,23 @@
             overflow: hidden;
             line-height: 17px;
         }
+
+        &__text-open {
+            max-height: none;
+        }
     }
 
     &__button {
         background-color: white;
         border: none;
         padding: 0;
-        cursor: pointer;
     }
 }
 
 @media (max-width: 767px) {
     .ref-item {
 
-        &__desctiption {
+        &__description {
             &__title {
                 font-size: 17px;
             }

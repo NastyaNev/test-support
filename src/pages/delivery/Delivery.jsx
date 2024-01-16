@@ -47,7 +47,7 @@ function Delivery() {
           <span>Онлайн-чат</span>
         </button>
         <img src={call} alt="позвонить" className="delivery-page__contacts__button-medias" />
-        <img src={email} alt="написать письмо" />
+        <img src={email} alt="написать письмо" className="delivery-page__contacts__button-medias" />
       </div>
     </main>
   );
