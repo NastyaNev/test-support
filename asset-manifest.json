@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-support/static/css/main.cad886df.css",
-    "main.js": "/test-support/static/js/main.7f599e84.js",
+    "main.css": "/test-support/static/css/main.8dd74133.css",
+    "main.js": "/test-support/static/js/main.347bb021.js",
     "static/js/787.2752eaa8.chunk.js": "/test-support/static/js/787.2752eaa8.chunk.js",
     "static/media/MuseoSansCyrl500.ttf": "/test-support/static/media/MuseoSansCyrl500.948ec7de201f332c4e86.ttf",
     "static/media/MuseoSansCyrl700.ttf": "/test-support/static/media/MuseoSansCyrl700.4407722f22c0457d4687.ttf",
@@ -31,12 +31,12 @@
     "static/media/ref-arrow-down.svg": "/test-support/static/media/ref-arrow-down.affe66ba7b462c2d6ca98c955363d882.svg",
     "static/media/arrow-right.svg": "/test-support/static/media/arrow-right.5c240e7e3df8bf804bf9ad50b75928c2.svg",
     "static/media/chat-white.svg": "/test-support/static/media/chat-white.498289188f07945365297af297768c8c.svg",
-    "main.cad886df.css.map": "/test-support/static/css/main.cad886df.css.map",
-    "main.7f599e84.js.map": "/test-support/static/js/main.7f599e84.js.map",
+    "main.8dd74133.css.map": "/test-support/static/css/main.8dd74133.css.map",
+    "main.347bb021.js.map": "/test-support/static/js/main.347bb021.js.map",
     "787.2752eaa8.chunk.js.map": "/test-support/static/js/787.2752eaa8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad886df.css",
-    "static/js/main.7f599e84.js"
+    "static/css/main.8dd74133.css",
+    "static/js/main.347bb021.js"
   ]
 }
