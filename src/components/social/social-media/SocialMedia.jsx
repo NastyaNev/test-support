@@ -1,10 +1,9 @@
 import React from "react";
-import "./SocialMedia.scss";
 
-function SocialMedia({ item }) {
+function SocialMedia({ item, classNameMedia, handleMediaClick }) {
   return (
-    <a href={item.link} className="social-media" target="_blank">
-      <img src={item.icon} alt={item.name} className="social-media__button" />
+    <a href={item.link} target="_blank" onClick={handleMediaClick} >
+      <img src={item.icon} alt={item.name} className={classNameMedia} />
     </a>
   );
 }

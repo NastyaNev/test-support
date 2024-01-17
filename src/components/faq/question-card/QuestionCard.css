@@ -1,0 +1,50 @@
+.question-card {
+  color: #1A1A1A;
+  text-decoration: none;
+  padding: 16px;
+  max-width: 250px;
+  height: 128px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(26, 26, 26, 0.07);
+  display: flex;
+  gap: 12px;
+}
+.question-card__question {
+  display: flex;
+  flex-direction: column;
+}
+.question-card__question__title {
+  margin: 0;
+  font-size: 20px;
+  font-family: "MuseoSansCyrl700";
+  line-height: 24px;
+}
+.question-card__question__text {
+  margin: 8px 0 0 0;
+  font-size: 15px;
+  color: #949494;
+  overflow: hidden;
+  max-height: 63px;
+  line-height: 22px;
+}
+.question-card__img {
+  width: 104px;
+  height: 162px;
+  position: relative;
+  top: -15px;
+  right: -17px;
+}
+
+.rec.rec-item-wrapper {
+  height: 174px;
+  display: flex;
+  align-items: center;
+}
+
+.rec.rec-slider-container {
+  margin: 0;
+}
+
+.value-null {
+  display: none;
+}/*# sourceMappingURL=QuestionCard.css.map */

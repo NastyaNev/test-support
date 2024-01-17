@@ -10,7 +10,6 @@
     &__description {
         display: flex;
         flex-direction: column;
-        gap: 4px;
         max-width: 443px;
 
         &__title {
@@ -21,7 +20,7 @@
         }
 
         &__text {
-            margin: 0;
+            margin: 4px 0 0;
             font-size: 13px;
             color: #949494;
             text-decoration: none;
@@ -31,6 +30,7 @@
         }
 
         &__text-open {
+            margin-top: 15px;
             max-height: none;
         }
     }

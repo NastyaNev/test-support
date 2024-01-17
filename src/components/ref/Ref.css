@@ -1,0 +1,28 @@
+.ref {
+  width: 77.8125%;
+  padding-bottom: 80px;
+  margin-top: -7px;
+}
+.ref__title {
+  margin: 0 0 32px 0;
+  display: flex;
+  font-size: 40px;
+  font-family: "MuseoSansCyrl700";
+  justify-content: center;
+}
+.ref__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 1279px) {
+  .ref__title {
+    font-size: 3.125vw;
+  }
+}
+@media (max-width: 767px) {
+  .ref__title {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=Ref.css.map */

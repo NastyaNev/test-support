@@ -1,0 +1,42 @@
+.top-block-link {
+  width: 160px;
+  min-width: 82px;
+  padding: 15px 0 15px 0;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.top-block-link__text {
+  color: #1A1A1A;
+  font-size: 15px;
+  font-family: "MuseoSansCyrl700";
+}
+
+.top-block-link:hover {
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1139px) {
+  .top-block-link {
+    width: 13.3333333333vw;
+    padding: 1.25vw 0 1.25vw 0;
+  }
+  .top-block-link__text {
+    font-size: 1.25vw;
+  }
+}
+@media (max-width: 767px) {
+  .top-block-link {
+    gap: 0.6666666667vw;
+    border-radius: 40px;
+  }
+  .top-block-link__text {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=TopBlockLink.css.map */

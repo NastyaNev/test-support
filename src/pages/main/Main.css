@@ -1,0 +1,22 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 80px;
+}
+.main-page:nth-child(3) {
+  color: blue;
+  align-items: none;
+}
+
+@media (max-width: 1079px) {
+  .main-page {
+    gap: 6.25vw;
+  }
+}
+@media (max-width: 579px) {
+  .main-page {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,44 @@
+.ref-item {
+  display: flex;
+  padding: 20px 24px;
+  justify-content: space-between;
+  box-shadow: 0 0 30px rgba(26, 26, 26, 0.05);
+  border-radius: 16px;
+  gap: 10px;
+  cursor: pointer;
+}
+.ref-item__description {
+  display: flex;
+  flex-direction: column;
+  max-width: 443px;
+}
+.ref-item__description__title {
+  margin: 0;
+  font-size: 20px;
+  font-family: "MuseoSansCyrl700";
+  color: black;
+}
+.ref-item__description__text {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #949494;
+  text-decoration: none;
+  max-height: 36px;
+  overflow: hidden;
+  line-height: 17px;
+}
+.ref-item__description__text-open {
+  margin-top: 15px;
+  max-height: none;
+}
+.ref-item__button {
+  background-color: white;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .ref-item__description__title {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=RefItem.css.map */

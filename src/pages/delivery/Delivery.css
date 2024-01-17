@@ -1,0 +1,125 @@
+.delivery-page {
+  margin: 22px 40px 80px 40px;
+  z-index: 0;
+}
+.delivery-page__overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.delivery-page__overlay-disabled {
+  display: none;
+}
+.delivery-page__title-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 191px;
+}
+.delivery-page__title-container__title {
+  margin: 0;
+  font-size: 24px;
+  font-family: "MuseoSansCyrl900";
+}
+.delivery-page__title-container__share {
+  cursor: pointer;
+  z-index: 10;
+}
+.delivery-page__title-container__share-menu {
+  display: none;
+  gap: 14px;
+  padding: 15px 17px;
+  box-shadow: 0 0 30px rgba(26, 26, 26, 0.1);
+  border-radius: 16px;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  background-color: white;
+  left: 105%;
+  top: -5%;
+  z-index: 10;
+}
+.delivery-page__title-container__share-menu_item {
+  width: 35px;
+  height: 35px;
+}
+.delivery-page__title-container__share-menu_open {
+  display: flex;
+}
+.delivery-page__text {
+  max-width: 690px;
+  font-size: 15px;
+  margin: 0 0 39px 0;
+  line-height: 21px;
+}
+.delivery-page__span {
+  font-size: 13px;
+  font-family: "MuseoSansCyrl700";
+}
+.delivery-page__contacts {
+  margin: 16px 0 0 0;
+  display: flex;
+  gap: 8px;
+}
+.delivery-page__contacts__button {
+  display: flex;
+  gap: 8px;
+  padding: 15px 57px;
+  background-color: #36BA5F;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-family: "MuseoSansCyrl700";
+  font-size: 15px;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+.delivery-page__contacts__button-medias {
+  cursor: pointer;
+  z-index: 10;
+}
+
+@media (max-width: 767px) {
+  .delivery-page__title-container__share-menu_open {
+    flex-direction: column;
+  }
+  .delivery-page__contacts__button {
+    padding: 15px 4.453125vw;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .delivery-page__title-container__share-menu {
+    left: 85%;
+    top: 150%;
+  }
+}
+@media (max-width: 416px) {
+  .delivery-page__title-container {
+    padding-right: 40%;
+  }
+  .delivery-page__title-container__share-menu {
+    left: 210px;
+    top: 0px;
+  }
+}
+@media (max-width: 370px) {
+  .delivery-page__title-container__share-menu {
+    left: 147px;
+    top: 55px;
+  }
+  .delivery-page__contacts__button {
+    font-size: 13px;
+    padding: 10px 4.453125vw;
+  }
+  .delivery-page__contacts__button__img {
+    display: none;
+  }
+}/*# sourceMappingURL=Delivery.css.map */

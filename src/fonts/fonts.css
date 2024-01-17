@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "MuseoSansCyrl500";
+  src: url("./MuseoSansCyrl500.woff") format("woff"), url("./MuseoSansCyrl500.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "MuseoSansCyrl700";
+  src: url("./MuseoSansCyrl700.woff") format("woff"), url("./MuseoSansCyrl700.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "MuseoSansCyrl900";
+  src: url("./MuseoSansCyrl900.woff") format("woff"), url("./MuseoSansCyrl900.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}/*# sourceMappingURL=fonts.css.map */

@@ -1,10 +1,28 @@
 .delivery-page {
     margin: 22px 40px 80px 40px;
+    z-index: 0;
+
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    &__overlay-disabled {
+        display: none;
+
+    }
 
     &__title-container {
         display: flex;
         gap: 12px;
         margin-bottom: 16px;
+        position: relative;
+        width: fit-content;
+        min-width: 191px;
 
         &__title {
             margin: 0;
@@ -14,6 +32,30 @@
 
         &__share {
             cursor: pointer;
+            z-index: 10;
+        }
+
+        &__share-menu {
+            display: none;
+            gap: 14px;
+            padding: 15px 17px;
+            box-shadow: 0 0 30px rgba(26, 26, 26, 10%);
+            border-radius: 16px;
+            width: fit-content;
+            position: absolute;
+            background-color: white;
+            left: 105%;
+            top: -5%;
+            z-index: 10;
+        }
+
+        &__share-menu_item {
+            width: 35px;
+            height: 35px;
+        }
+
+        &__share-menu_open {
+            display: flex;
         }
     }
 
@@ -46,10 +88,80 @@
             font-size: 15px;
             align-items: center;
             cursor: pointer;
+            z-index: 10;
         }
 
         &__button-medias {
             cursor: pointer;
+            z-index: 10;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .delivery-page {
+        &__title-container {
+
+            &__share-menu_open {
+                flex-direction: column;
+            }
+        }
+
+        &__contacts {
+
+            &__button {
+                padding: 15px calc(100vw / (1280 / 57));
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .delivery-page {
+        &__title-container {
+
+            &__share-menu {
+                left: 85%;
+                top: 150%;
+            }
+        }
+    }
+}
+
+@media (max-width: 416px) {
+    .delivery-page {
+        &__title-container {
+            padding-right: 40%;
+
+            &__share-menu {
+                left: 210px;
+                top: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .delivery-page {
+        &__title-container {
+
+            &__share-menu {
+                left: 147px;
+                top: 55px;
+            }
+        }
+
+        &__contacts {
+
+            &__button {
+                font-size: 13px;
+                padding: 10px calc(100vw / (1280 / 57));
+
+                &__img {
+                    display: none;
+                }
+            }
         }
     }
 }

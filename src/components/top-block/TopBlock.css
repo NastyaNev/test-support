@@ -1,0 +1,84 @@
+.top-block {
+  width: 93.75%;
+  background-color: #93BBEA;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 40px 0 54px 0;
+  background-image: url(../../images/top-block/plains.svg), url(../../images/top-block/hand.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -6px 37px, right bottom;
+  background-size: 275px 195px, 278px 229px;
+}
+.top-block__title {
+  margin: 0 0 4px 0;
+  font-family: "MuseoSansCyrl900";
+  font-size: 60px;
+  text-align: center;
+}
+.top-block__subtitle {
+  margin: 0;
+  font-size: 17px;
+  width: 538px;
+  text-align: center;
+  line-height: 23px;
+}
+.top-block__contact-menu {
+  display: flex;
+  gap: 8px;
+  margin: 40px 0 0 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 1279px) {
+  .top-block {
+    background-size: 22.9166666667% 63.7254901961%, 23.1666666667% 74.8366013072%;
+    padding: 3.3333333333vw 0 4.5vw 0;
+  }
+  .top-block__title {
+    font-size: 5vw;
+  }
+  .top-block__subtitle {
+    font-size: 1.4166666667vw;
+    width: 48.5833333333vw;
+  }
+  .top-block__contact-menu {
+    gap: 8px;
+    margin: 3.3333333333vw 0 0 0;
+  }
+}
+@media (max-width: 900px) {
+  .top-block__subtitle {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .top-block__subtitle {
+    width: 58.3333333333vw;
+  }
+}
+@media (max-width: 579px) {
+  .top-block {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .top-block__subtitle {
+    display: none;
+  }
+  .top-block__contact-menu {
+    gap: 0.625vw;
+  }
+  .top-block__contact-menu {
+    gap: 4px;
+  }
+}
+@media (max-width: 529px) {
+  .top-block {
+    background-image: none;
+  }
+}/*# sourceMappingURL=TopBlock.css.map */

@@ -57,6 +57,11 @@
             display: flex;
             gap: calc(100vw / (1280 / 14));
         }
+
+        &__media {
+            width: calc(100vw / (1280 / 56));
+            height: calc(100vw / (1280 / 56));
+        }
     }
 }
 
@@ -76,6 +81,11 @@
         &__medias {
             gap: 15px;
         }
+
+        &__media {
+            width: 35px;
+            height: 35px;
+        }
     }
 }
 
@@ -90,5 +100,5 @@
             gap: 10px;
         }
     }
-    
+
 }

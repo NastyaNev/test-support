@@ -1,7 +1,6 @@
 import React from "react";
 import "./Social.scss";
-import { socialMedias } from "../../utils/social-medias-array";
-import SocialMedia from "./social-media/SocialMedia";
+import SocialMedias from "./social-medias/SocialMedias";
 
 function Social() {
   return (
@@ -10,11 +9,7 @@ function Social() {
         <p className="social__text__subtitle">Социальные сети и сообщество</p>
         <h3 className="social__text__title">Присоединяйтесь</h3>
       </div>
-      <nav className="social__medias">
-        {socialMedias.map((i, index) => (
-          <SocialMedia key={index} item={i} />
-        ))}
-      </nav>
+      <SocialMedias classNameMedias="social__medias" classNameMedia="social__media" />
     </div>
   );
 }
