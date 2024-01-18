@@ -9,31 +9,31 @@ export const socialMedias = [
   {
     name: "ВКонтакте",
     icon: `${vk}`,
-    link: "*",
+    link: "#",
   },
   {
     name: "Инстаграм",
     icon: `${insta}`,
-    link: "*",
+    link: "#",
   },
   {
     name: "Тик-ток",
     icon: `${tikTok}`,
-    link: "*",
+    link: "#",
   },
   {
     name: "Твиттер",
     icon: `${twitter}`,
-    link: "*",
+    link: "#",
   },
   {
     name: "Яндекс Дзен",
     icon: `${dzen}`,
-    link: "*",
+    link: "#",
   },
   {
     name: "Фейсбук",
     icon: `${facebook}`,
-    link: "*",
+    link: "#",
   },
 ];

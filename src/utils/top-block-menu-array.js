@@ -7,21 +7,21 @@ export const topBlockMenu = [
     {
       name: "Онлайн-чат",
       icon: `${chat}`,
-      link: "*",
+      link: "#",
     },
     {
       name: "Позвонить",
       icon: `${phone}`,
-      link: "*",
+      link: "#",
     },
     {
       name: "Почта",
       icon: `${email}`,
-      link: "*",
+      link: "#",
     },
     {
       name: "Отзыв о сайте",
       icon: `${star}`,
-      link: "*",
+      link: "#",
     },
   ];

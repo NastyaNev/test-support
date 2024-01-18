@@ -2,9 +2,9 @@ import React from "react";
 import "./QuestionCard.scss";
 import { NavLink } from "react-router-dom";
 
-function QuestionCard({ question, way }) {
+function QuestionCard({ question }) {
   return (
-    <NavLink className="question-card" to={way}>
+    <NavLink className="question-card" to={question.way} target="_blank">
       <div className="question-card__question">
         <h4 className="question-card__question__title">{question.title}</h4>
         <p className={question.text === null ? "value-null" : "question-card__question__text"}>{question.text}</p>

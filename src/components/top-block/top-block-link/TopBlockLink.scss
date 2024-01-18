@@ -1,27 +1,24 @@
+@use "../../../index.scss";
+
 .top-block-link {
     width: 160px;
     min-width: 82px;
     padding: 15px 0 15px 0;
     background-color: #FFFFFF;
     border-radius: 12px;
-    display: flex;
     gap: 8px;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    transition: all 0.3s ease 0s;
 
     &__text {
         color: #1A1A1A;
         font-size: 15px;
         font-family: 'MuseoSansCyrl700';
     }
+
+    @include index.button-effects;
 }
 
-.top-block-link:hover {
-    border-radius: 40px;
-    transition: all 0.3s ease 0s;
-}
+
 
 @media (max-width: 1139px) {
     .top-block-link {
@@ -37,7 +34,6 @@
 @media (max-width: 767px) {
     .top-block-link {
         gap: calc(100vw / (1200 / 8));
-        border-radius: 40px;
 
         &__text {
             font-size: 8px;

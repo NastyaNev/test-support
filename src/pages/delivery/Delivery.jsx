@@ -22,19 +22,21 @@ function Delivery() {
   return (
     <main className="delivery-page">
       <div
-          className={open ? "delivery-page__overlay" : "delivery-page__overlay-disabled"}
-          onClick={closeOnBackgroundClick}
-        ></div>
+        className={
+          open ? "delivery-page__overlay" : "delivery-page__overlay-disabled"
+        }
+        onClick={closeOnBackgroundClick}
+      ></div>
       <div className="delivery-page__title-container">
         <h2 className="delivery-page__title-container__title">
           Где работает доставка?
         </h2>
-        <img
+        <div
           className="delivery-page__title-container__share"
-          src={share}
-          alt="поделиться"
           onClick={handleClick}
-        />
+        >
+          <img src={share} alt="поделиться" />
+        </div>
         <SocialMedias
           classNameMedias={
             open
@@ -42,7 +44,9 @@ function Delivery() {
               : "delivery-page__title-container__share-menu"
           }
           classNameMedia="delivery-page__title-container__share-menu_item"
-          handleMediaClick={() => {setOpen(false)}}
+          handleMediaClick={() => {
+            setOpen(false);
+          }}
         />
       </div>
       <p className="delivery-page__text">
@@ -87,16 +91,13 @@ function Delivery() {
           />
           <span>Онлайн-чат</span>
         </button>
-        <img
-          src={call}
-          alt="позвонить"
-          className="delivery-page__contacts__button-medias"
-        />
-        <img
-          src={email}
-          alt="написать письмо"
-          className="delivery-page__contacts__button-medias"
-        />
+
+        <a href="#" className="delivery-page__contacts__button-medias">
+          <img src={call} alt="позвонить" />
+        </a>
+        <a href="#" className="delivery-page__contacts__button-medias">
+          <img src={email} alt="написать письмо" />
+        </a>
       </div>
     </main>
   );

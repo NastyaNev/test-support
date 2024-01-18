@@ -76,7 +76,7 @@ function Faq() {
           }}
         >
           {questions.map((question, index) => (
-            <QuestionCard key={index} question={question} way="#" />
+            <QuestionCard key={index} question={question} />
           ))}
         </Carousel>
       </div>

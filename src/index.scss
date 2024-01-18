@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@mixin button-effects($border-radius: 50px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  &:after {
+      content: "";
+      background:rgba(147,187,234, 0.5);
+      display: block;
+      position: absolute;
+      opacity: 0;
+      transition: all 0.5s ease;
+      width: 10%;
+      height: 10%;
+      border-radius: $border-radius;
+  }
+
+  &:hover {
+      border-radius: $border-radius;
+  }
+
+  &:active:after {
+      opacity: 1;
+      transition: 0.1s;
+      padding-top: 90%;
+      padding-bottom: 90%;
+      padding-left: 90%;
+      padding-right: 90%;
+  }
+}

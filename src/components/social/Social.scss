@@ -1,5 +1,6 @@
 .social {
     width: calc(100% / (1280 / (996 - 80)));
+    max-width: calc(1900px / (1200 / 996));
     border-radius: 40px;
     box-shadow: 0 20px 60px rgba(26, 26, 26, 5%);
     padding: 42px 40px;

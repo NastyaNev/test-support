@@ -1,0 +1,5 @@
+@use "../../../index.scss";
+
+.social-media {
+    @include index.button-effects;
+}
