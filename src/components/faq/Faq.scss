@@ -16,13 +16,16 @@
     &__carousel {
         position: relative;
         z-index: 5;
-        width: calc(96% - 7px);
+        width: calc(95% - 7px);
         padding-right: 7px;
+        max-width: 1842.432px;
+
 
 
         &__arrows {
             position: absolute;
             width: 98%;
+            max-width: calc(1842.432px / (100 / 98));
             left: 1%;
             top: 37.5%;
             display: flex;
@@ -38,7 +41,7 @@
 
         &__carousel {
 
-            width: 96%;
+            width: 95%;
             padding-right: 0;
 
         }
@@ -48,7 +51,7 @@
 @media (max-width: 1279px) {
     .faq {
         &__carousel {
-            width: calc(96% - 7px);
+            width: calc(95% - 7px);
             padding-right: 7px;
 
         }

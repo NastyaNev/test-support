@@ -22,13 +22,11 @@ function Faq() {
     updateWidth();
   }, [width]);
 
-  const handleItemsToScroll =() => {
-    if (width >= 767) {
-      return 2;
-    } else {
-      return 1;
-    }
-  };
+  const breakPoints = [
+    { width: 1, itemsToShow: width / (1280 / 1208) / 307.072, itemsToScroll: 1 },
+    { width: 1280, itemsToShow: width / (1280 / 1208) / 307.072, itemsToScroll: 2 },
+    { width: 1842, itemsToShow: 6, itemsToScroll: 2 },
+  ]
 
   return (
     <div className="faq">
@@ -53,10 +51,9 @@ function Faq() {
           />
         </div>
         <Carousel
+          breakPoints={breakPoints}
           ref={carousel}
           pagination={false}
-          itemsToShow={(width / (1280 / 1220) / 305.072)}
-          itemsToScroll={handleItemsToScroll()}
           renderArrow={({ type, onClick, isEdge }) => {
             return (
               <RenderComponent
